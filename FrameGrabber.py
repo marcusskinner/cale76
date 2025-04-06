@@ -11,7 +11,7 @@ class FrameGrabber:
         
     def get_frame(self, resize=(640, 640)):
         frame = np.array(self.sct.grab(self.monitor))[:, :, :3] 
-        frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+        #frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
         
         if resize:
             frame = cv2.resize(frame, resize)

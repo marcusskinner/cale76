@@ -7,7 +7,7 @@ data_path = "D:/Repos/cale76/data/"
 if __name__ == "__main__":
     grabber = FrameGrabber()
 
-    count = 4
+    count = 38
     
     while True:
         
